@@ -1,13 +1,19 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Top from "./components/Top";
+import Picture from "./components/Picture";
+import "./styles/Home.css";
 
-function Home() {
-  return (
+class Home extends React.Component {
+  
+  render() {
+    return (
     <div className="Home">
-      <header className="Home-header">
-        <h1>ici c'est Home</h1>
-      </header>
-      
-    </div>
-  );
+      <Top />
+      <Picture />
+      <Footer />
+    </div>)
+  }
 }
+
 export default Home;
