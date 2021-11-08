@@ -1,0 +1,16 @@
+.Picture2 {
+    position: relative;
+    height: 223px;
+    width: 90%;
+    text-align: center;
+}
+.Picture2--content {
+    position: absolute;
+    background: url("../média/IMG2.jpg");
+    border-radius: 25px;
+    filter: brightness(50%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+
+}

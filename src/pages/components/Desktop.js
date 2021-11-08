@@ -1,9 +1,12 @@
 import React from "react";
+import Habitations from "./data/data";
+import "./styles/Desktop.css";
 
 const Desktop = () => {
+    
     return (
-        <div>
-            Component Desktop
+        <div className="Desktop">
+            
         </div>
     );
 };

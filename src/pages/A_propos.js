@@ -1,14 +1,20 @@
 import React from "react";
-//import './A_propos.css';
+import Footer from "./components/Footer";
+import Top from "./components/Top";
+import Picture2 from "./components/Picture2";
+import './styles/A_propos.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>A propos</h1>
-      </header>
+class A_propos extends React.Component {
+   
+  render() {
+    return (
+    <div className="A_propos">
+      <Top />
+      <Picture2 />
       
-    </div>
-  );
+      <Footer />
+    </div>)
+  }
 }
-export default App;
+
+export default A_propos;

@@ -1,0 +1,5 @@
+.A_propos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
