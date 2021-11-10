@@ -8,7 +8,7 @@ class Fiche extends React.Component {
                 
         return (
             <div>
-                C'est Marseille BB
+             
             </div>
         );
     }
