@@ -1,14 +1,16 @@
 import React from "react";
 import "./styles/Picture2.css"
 
-const Picture2 = () => {
-    return (
-        <div className="Picture2">
-            <div className="Picture2--content">
+class Picture2 extends React.Component {
+    render() {
+        return (
+            <div className="Picture2">
+                <div className="Picture2--content">
                 
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 };
 
 export default Picture2;

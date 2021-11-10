@@ -1,4 +1,4 @@
-.Desktop {
+.Card {
 background: linear-gradient(180deg, rgb(216, 120, 120) 50%, #612424);
 width: 340px;
 height:340px;
@@ -7,4 +7,15 @@ margin-top: 50px;
 margin-bottom: 50px;
 margin-left: auto;
 margin-right: auto;
+text-decoration: none;
+}
+.Title {
+    font-size: 16px;
+    width: 200px;
+    position: relative;
+    top: 270px;
+    left: 20px;
+    color: white;
+    font-weight: 500;
+    
 }
