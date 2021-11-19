@@ -12,6 +12,7 @@ class A_propos extends React.Component {
       <Top />
       <Picture2 />
       
+      
       <Footer />
     </div>)
   }

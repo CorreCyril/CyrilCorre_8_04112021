@@ -4,6 +4,8 @@ import Top from "./components/Top";
 import Picture from "./components/Picture";
 import Card from "./components/Card";
 import Habitations from "./components/data/data";
+
+//import { NavLink } from "react-router-dom";
 import "./styles/Home.css";
 
 class Home extends React.Component {
@@ -12,11 +14,13 @@ class Home extends React.Component {
     <div className="Home">
       <Top />
       <Picture />
+      
       <div className="Home--content">
         {Habitations.map(Habitation => <Card Habitation={Habitation} />)}
         
 
       </div>
+      
       <Footer />
     </div>)
   }
