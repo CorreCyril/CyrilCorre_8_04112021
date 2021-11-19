@@ -9,19 +9,11 @@ class Card extends React.Component {
         
          
         return (
-            <div className="Card">
-                   
-                    <NavLink to={id}>
-                        {id}
-                        <h1 className="Title">{this.props.Habitation.title}</h1>
-                    </NavLink>
-            </div>
+            <NavLink to={id} className="Card">
                 
-            
-            
+                <h1 className="Title">{this.props.Habitation.title}</h1>
                 
-            
-    
+            </NavLink>
         );
 
     }
