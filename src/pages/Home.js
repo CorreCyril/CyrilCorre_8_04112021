@@ -16,7 +16,7 @@ class Home extends React.Component {
       <Picture />
       
       <div className="Home--content">
-        {Habitations.map(Habitation => <Card Habitation={Habitation} />)}
+        {Habitations.map(Habitation => <Card Habitation={Habitation} key={Habitation.id} />)}
         
 
       </div>

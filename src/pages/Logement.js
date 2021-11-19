@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "./components/Footer";
-import Fiche from "./components/Fiche";
+
 import Top from "./components/Top";
-import Habitations from "./components/data/data";
+
 
 
 
@@ -15,7 +15,7 @@ class Logement extends React.Component {
     <div className="Logement">
         <Top />
         
-        {Habitations.map(Habitation => <Fiche Habitation={Habitation} />)}
+        
         
         <Footer />
     </div>)
