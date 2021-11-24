@@ -1,0 +1,43 @@
+.DropDown {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+
+    
+}
+.BlocRed {
+    height: 52px;
+    border-radius: 10px;
+    background-color: #FF6060;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.Props {
+    margin-left: 3%;
+}
+.Chevron{
+    margin-right: 3%;
+}
+.BlocGrey {
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    margin-top: -15px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PropsTxt {
+    width: 90%;
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 20px;
+
+}
