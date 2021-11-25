@@ -8,12 +8,13 @@ function NotFound() {
   return (
     <div className="NotFound">
       <Top />
-      
-      <h1 className="Error">404</h1>
-      <p className="String">Oups! La page que vous demandez n'existe pas.</p>
-      <NavLink exact to="/" className="link">
-        <p>Retourner sur la page d’accueil</p>
-      </NavLink>
+      <div className="Div--error">
+        <h1 className="Error">404</h1>
+        <p className="String">Oups! La page que vous demandez n'existe pas.</p>
+        <NavLink exact to="/" className="link">
+          <p>Retourner sur la page d’accueil</p>
+        </NavLink>
+      </div>
       <Footer />
     </div>
   );

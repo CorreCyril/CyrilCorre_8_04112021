@@ -2,7 +2,9 @@
     position: relative;
     height: 223px;
     width: 90%;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Picture--content {
     position: absolute;
@@ -16,6 +18,21 @@
 }
 .Txt {
     color:  white;
-    font-size: 50px;
-    line-height: 150px;
+    font-size: 48px;
+    
+    
+}
+@media screen and (max-width:800px) {
+    .Picture {
+        justify-content: flex-start;
+    }
+    .Content--Txt {
+        width: 220px;
+        margin-left: 20px;
+    
+    }
+    .Txt {
+        font-size: 24px;
+
+    }
 }

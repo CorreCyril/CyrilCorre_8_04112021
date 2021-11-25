@@ -4,5 +4,10 @@
     align-items: center;
 }
 .ContentDrop {
-    width: 90%;
+    width: 75%;
+}
+@media screen and (max-width:800px) {
+    .ContentDrop {
+        width: 90%;
+    }
 }

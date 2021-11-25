@@ -8,7 +8,9 @@ class Picture extends React.Component {
                 <div className="Picture--content">
                 
                 </div>
-                <p className="Txt">Chez vous, partout et ailleurs</p>
+                <div className="Content--Txt">
+                    <p className="Txt">Chez vous, partout et ailleurs</p>
+                </div>
             </div>
         );
     }

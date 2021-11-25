@@ -8,11 +8,12 @@
 .Navigation {
     display: flex;
     justify-content: space-between;
-    width: 15%;
+    
 }
 .nav {
     color: red;
     text-decoration: none;
+    margin-left: 20px;
 }
 .navActive {
     text-decoration: underline;

@@ -55,23 +55,25 @@ class Logement extends React.Component {
             <i className="fa fa-chevron-right chevron right" onClick={() => this.addone()}></i>
             <img className="Cover--img" src={this.state.Logement.pictures[this.state.Pictures]} alt="pictures" />
           </div>
-          <div className="Title--container">
-            <div>
-              <h1 className="Title--content">{this.state.Logement.title}</h1>
-              <p className="Location">{this.state.Logement.location}</p>
+          <div className="Logement--top">
+            <div className="Title--container">
+              <div>
+                <h1 className="Title--content">{this.state.Logement.title}</h1>
+                <p className="Location">{this.state.Logement.location}</p>
+              </div>
+              <div className="DivTags">
+                {this.state.Logement.tags.map(elt => <Tags elt={elt} />)}
+              </div>
             </div>
-            <div className="Profil">
-              <p className="Name">{this.state.Logement.host.name}</p>
-              <img className="Profil--img" src={this.state.Logement.host.picture} alt="profil" />
-            </div>
-          </div>
-          <div className="UnderTitle">
-            <div className="DivTags">
-              {this.state.Logement.tags.map(elt => <Tags elt={elt} />)}
-            </div>
-            <div className="Rating">
-              {[...Array(n)].map(() => <StarRed />)}
-              {[...Array(5 - n)].map(() => <StarGrey />)} 
+            <div className="UnderTitle">
+              <div className="Profil">
+                <p className="Name">{this.state.Logement.host.name}</p>
+                <img className="Profil--img" src={this.state.Logement.host.picture} alt="profil" />
+              </div>
+              <div className="Rating">
+                {[...Array(n)].map(() => <StarRed />)}
+                {[...Array(5 - n)].map(() => <StarGrey />)} 
+              </div>
             </div>
           </div>
           <div className="Arrows">
